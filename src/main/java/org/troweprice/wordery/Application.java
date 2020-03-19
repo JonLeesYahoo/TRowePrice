@@ -14,6 +14,7 @@ public class Application {
         //enforce 2 arguments
         if (args.length != 2) {
             System.out.println("Two parameters are required: {L, l, S, s}, \"Sentence to analyse\"");
+            System.exit(0);
         }
 
         //Get the letter of the option required
@@ -35,6 +36,8 @@ public class Application {
                 int lengthShortestWord = sentenceAnalyser.getShortestLength(args[1]);
                 System.out.println("Length of shortest word is " + lengthShortestWord);
                 break;
+            default:
+                System.out.println("Invalid option entered: Valid options are {S, L, s, l}");
         }
     }
 
