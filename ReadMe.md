@@ -36,7 +36,7 @@ The second parameter is the sentence to parse in inverted commas.
 
 For example, the following will make a call to find the length of the shortest word for the given sentence;
 
-run s "The cow jumped over the moon...."
+    run s "The cow jumped over the moon...."
 
 ###Comments
 I am happy to say that I wrote the first two tests first, before writing a line of code.
