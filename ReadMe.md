@@ -28,6 +28,7 @@ For example, the following will make a call to find the longest word for the giv
 
 
 ###Easy Run
+
 A second method of running the code has been supplied to make it easier for regular users to run.
 From the project root folder, simply type the "run" command followed by two parameters as described below;
  
@@ -38,7 +39,9 @@ For example, the following will make a call to find the length of the shortest w
 
     run s "The cow jumped over the moon...."
 
+
 ###Comments
+
 I am happy to say that I wrote the first two tests first, before writing a line of code.
 Then ran the tests and had them fail. This was my starting point.
 
